@@ -1,4 +1,4 @@
-# Homepage
+# Home
 <!-- CSS -->
 <style>
 .columns {
