@@ -14,7 +14,7 @@
 <!-- 分栏界面开始 -->
 <div class="columns">
   <a href="publications.html" class="column">Publications</a>
-  <a href="members" class="column">Members</a>
+  <a href="members.html" class="column">Members</a>
   <a href="teaching" class="column">Teaching</a>
   <a href="resources" class="column">Resources</a>
   <a href="joinus" class="column">Join Us</a>
