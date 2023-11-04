@@ -17,7 +17,7 @@
   <a href="publications.html" class="column">Publications</a>
   <a href="members.html" class="column">Members</a>
   <a href="teaching.html" class="column">Teaching</a>
-  <a href="source.html" class="column">Source</a>
+  <a href="resources.html" class="column">Source</a>
   <a href="joinus.html" class="column">Join Us</a>
 </div>
 <!-- 分栏界面结束 -->
