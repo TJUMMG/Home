@@ -23,12 +23,12 @@
 <!-- README.md -->
 # Jing Liu's Homepage
 
-<img src="image.png" alt="图片描述" style="float:left;margin-right:10px;max-width:100px; height:auto;" />
+<img src="image.png" alt="图片描述" style="float:left;margin-right:10px;max-width:200px; height:auto;" />
 
 Hi, I am now an Associate Professor with Multimedi Institute of Tianjin University. I received the B.E and Ph.D. degree from Shanghai Jiao Tong Univeristy under the supervision of Prof. Xiaokang Yang and Prof. Guangtao Zhai. I am also supervised by Prof. Chang Wen Chen when visiting at SUNY@Buffalo from 2014-2015. My research interest includes: image/video processing and cross-modal video content analysis. 
 
-- Email:  jliu_tju@tju.edu.cn
-- Address: Tianjin University,26D Building, Rm 413
+  - Email:  jliu_tju@tju.edu.cn
+  - Address: Tianjin University,26D Building, Rm 413
 
 ## Work Experience
 
