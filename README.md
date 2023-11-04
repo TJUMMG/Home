@@ -29,7 +29,7 @@ Hi, I am now an Associate Professor with Multimedi Institute of Tianjin Universi
 
 - Email:  jliu_tju@tju.edu.cn
 - Address: Tianjin University,26D Building, Rm 413
-- Github: <a href="https://github.com/TJUMMG" target="_blank>TJUMMG</a>
+- Github: <a href="https://github.com/TJUMMG" target="_blank">TJUMMG</a>
 
 ## Work Experience
 
