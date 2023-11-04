@@ -23,7 +23,7 @@
 <!-- README.md -->
 # Jing Liu's Homepage
 
-<img src="image.png" alt="图片描述" style="float:left;margin-right:30px;margin-left:0px;max-width:230px; height:auto;" />
+<img src="image.png" alt="图片描述" style="float:left;margin-right:30px;margin-left:0px;max-width:240px; height:auto;" />
 
 Hi, I am now an Associate Professor with Multimedi Institute of Tianjin University. I received the B.E and Ph.D. degree from Shanghai Jiao Tong Univeristy under the supervision of Prof. <a href="https://english.seiee.sjtu.edu.cn/english/detail/842_802.htm">Xiaokang Yang</a> and Prof. <a href="https://scholar.google.ca/citations?user=E6zbSYgAAAAJ">Guangtao Zhai</a>. I am also supervised by Prof. <a href="https://cse.buffalo.edu/UBMM/People/dr.chen.html">Chang Wen Chen</a> when visiting at SUNY@Buffalo from 2014-2015. My research interest includes: image/video processing and cross-modal video content analysis. 
 
