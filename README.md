@@ -1,4 +1,3 @@
-# Home
 <!-- CSS -->
 <style>
 .columns {
