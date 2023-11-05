@@ -13,12 +13,17 @@
     }
      /* 设置容器的宽度和高度 */
     .image-container {
-      width: 600px;
-      height: 300px;
+      width: 400px;
+      height: 200px;
       overflow: auto;
     }
     
     /* 设置图片的样式 */
+    .image-container li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
     .image-container img {
       width: 100%;
       height: auto;
@@ -113,11 +118,13 @@ Multimedia Group (MMG) is led by Dr. Jing Liu and affiliated with School of Elec
   </ul>
     <h2>Photos</h2>
     <div class="image-container">
-    <!-- 添加多个图片 -->
-    <img id="image1" src="image1.jpg" alt="Image 1">
-    <img id="image3" src="image3.jpg" alt="Image 3">
-    <img id="image4" src="image4.jpg" alt="Image 4">
-    <!-- 添加更多图片... -->
+    <ul>
+      <!-- 添加多个图片 -->
+      <li><img src="image1.jpg" alt="Image 1"></li>
+      <li><img src="image3.jpg" alt="Image 3"></li>
+      <li><img src="image4.jpg" alt="Image 4"></li>
+      <!-- 添加更多图片... -->
+    </ul>
     </div>
   </div>
   <div id="zh-CN" class="language-content">
