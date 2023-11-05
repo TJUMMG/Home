@@ -68,34 +68,31 @@ Hi, I am now an Associate Professor with Multimedi Institute of Tianjin Universi
 
 <h2>NEWS!</h2>
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>09/2023, I am promoted to advanced membership of CCF.</li>
+    <li>09/2023, our work SiamDMU is accepted by IEEE TETCI  with code available at GitHub.</li>
+    <li>09/2023, we have successfully host the 3rd CSIG Excellent Doctoral Forum in Tianjin Univeristy!</li>
+    <li>8/2023, our proposal is granted by National Science and Foundation of China.</li>
+    <li>07/2023, one work is accepted by ACM MM with code coming song.</li>
+    <li>07/2023, our work MSTFN is accepted by IEEE TMM with code available at GitHub.</li>
+    <li>04/2023, our work KCLR is accepted by IEEE TMM.</li>
+    <li>04/2023, our work MALN is accepted by IEEE TCSVT.</li>
+    <li>03/2023, our work MRFT is accepted by IEEE TCSVT.</li>
+    <li>01/2023, our work SAW is accepted by IEEE TIP with code available at GitHub.</li>
+    <li>12/2022, our work TGSR is accepted by IEEETCSVT with code available at GitHub.</li>
+    <li>12/2022, our work BE-DS won the Best Poster Award of IFTC2022.</li>
+    <li>08/2022, I am enrolled in the MM Committee of CSIG and CCF.</li>
+    <li>--/2022, our work QA-PRI won the 2021 Prize Paper Award Runner-up of IEEE TMM.</li>
+    <li>09/2021, our work TANET is accepted by IEEE TMM with code available at GitHub.</li>
+    <li>06/2021, our work RMFNet is accepted by IEEE TCSVT.</li>
+    <li>12/2020, I am enrolled  in Editoral Board of Displays (Springer)</li>
+    <li>06/2020, our work LRML is published in IEEE TMM.</li>
+    <li>12/2019, I am enrolled in Beiyang Scholar Program-Young Teacher.</li>
+    <li>10/2019, our work BE-CALF is published in IEEE TIP with code available at GitHub.</li>
+    <li>10/2019, two of my students Wanning Sun and Pingping Liu was granted National Scholarship.</li>
+    <li>09/2019, our work SSCNN is published in IEEE TMM.</li>
+    <li>11/2018, I receive an honer for CSIG candidate excellent doctoral dissertation.</li>
+    <li>10/2018, our work IPAD is published in IEEE TIP with code available at GitHub.</li>
   </ul>
-- 09/2023, I am promoted to advanced membership of CCF.
-- 09/2023, our work SiamDMU is accepted by IEEE TETCI  with code available at GitHub.
-- 09/2023, we have successfully host the 3rd CSIG Excellent Doctoral Forum in Tianjin Univeristy!
-- 8/2023, our proposal is granted by National Science and Foundation of China.
-- 07/2023, one work is accepted by ACM MM with code coming song.
-- 07/2023, our work MSTFN is accepted by IEEE TMM with code available at GitHub.
-- 04/2023, our work KCLR is accepted by IEEE TMM.
-- 04/2023, our work MALN is accepted by IEEE TCSVT.
-- 03/2023, our work MRFT is accepted by IEEE TCSVT.
-- 01/2023, our work SAW is accepted by IEEE TIP with code available at GitHub.
-- 12/2022, our work TGSR is accepted by IEEETCSVT with code available at GitHub.
-- 12/2022, our work BE-DS won the Best Poster Award of IFTC2022.
-- 08/2022, I am enrolled in the MM Committee of CSIG and CCF.
-- --/2022, our work QA-PRI won the 2021 Prize Paper Award Runner-up of IEEE TMM.
-- 09/2021, our work TANET is accepted by IEEE TMM with code available at GitHub.
-- 06/2021, our work RMFNet is accepted by IEEE TCSVT.
-- 12/2020, I am enrolled  in Editoral Board of Displays (Springer)
-- 06/2020, our work LRML is published in IEEE TMM.
-- 12/2019, I am enrolled in Beiyang Scholar Program-Young Teacher.
-- 10/2019, our work BE-CALF is published in IEEE TIP with code available at GitHub.
-- 10/2019, two of my students Wanning Sun and Pingping Liu was granted National Scholarship.
-- 09/2019, our work SSCNN is published in IEEE TMM.
-- 11/2018, I receive an honer for CSIG candidate excellent doctoral dissertation.
-- 10/2018, our work IPAD is published in IEEE TIP with code available at GitHub.
 </div>
 
 <script>
