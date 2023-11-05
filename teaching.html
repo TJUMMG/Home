@@ -12,9 +12,45 @@
       margin-right: 100px;
     }
   </style>
+  <script>
+    function changeLanguage(lang) {
+      var elements = document.getElementsByClassName("language-content");
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = "none";
+      }
+      var selectedContent = document.getElementById(lang);
+      selectedContent.style.display = "block";
+    }
+  </script>
 </head>
-<body>
+<body onload="changeLanguage('en')">
+  <button onclick="changeLanguage('en')">English</button>
+  <button onclick="changeLanguage('zh-CN')">中文</button>
+  <div id="en" class="language-content" style="display: none;">
   <h1>Teaching Courses</h1>
+  
+  <h2>Undergraduate Courses</h2>
+  <ul>
+    <li>Scientific Computing Language</li>
+    Semester：18192，21221，22231，23241</br>
+    Object oriented：Electronic information engineering, Internet of Things engineering</br>
+    <li>Big Data Analysis (English)</li>
+    Semester：19201，20211，21222，22232</br>
+    Object oriented：Communication engineering，Electronic information engineering, Internet of Things engineering，Smart grid information engineering</br>
+    <li>Big Data Analysis</li>
+    Semester：22231，23241</br>
+    Object oriented：Communication engineering</br>
+  </ul>
+  
+  <h2>Postgraduate Courses</h2>
+  <ul>
+    <li>Advanced Course of Big Data Analysis (English)</li>
+    <li>Multimedia intelligent analysis and calculation</li>
+  </ul>
+  </div>
+  
+  <div id="zh-CN" class="language-content">
+  <h1>教学课程/h1>
   
   <h2>本科生课程</h2>
   <ul>
@@ -34,6 +70,6 @@
     <li>大数据分析高级教程 （英文）</li>
     <li>多媒体智能分析与计算</li>
   </ul>
-
+  </div>
 </body>
 </html>
