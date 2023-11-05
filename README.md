@@ -28,7 +28,7 @@
 </div>
 <!-- 分栏界面结束 -->
 <!-- README.md -->
-# Jing Liu's Homepage
+<h1>Jing Liu's Homepage</h1>
 
 <img src="image.png" alt="图片描述" style="float:left;margin-right:30px;margin-left:0px;max-width:240px; height:auto;" />
 
@@ -38,30 +38,30 @@ Hi, I am now an Associate Professor with Multimedi Institute of Tianjin Universi
 - Address: Tianjin University,26D Building, Rm 413
 - Github: <a href="https://github.com/TJUMMG" target="_blank">TJUMMG</a>
 
-## Work Experience
+<h2>Work Experience</h2>
 
 - 2019-now: Associate Professor, Tianjin University, China 
 - 2019-now: Associate Professor, Tianjin University, China 
 - 2017-2019 : Post-doc, Tianjin University, China
 
-## Educational Experience
+<h2>Educational Experience</h2>
 
 - 2011-2017: PhD, Shanghai Jiao Tong University, China
 - 2014-2015: Visiting Scholar, State University of New York, U.S.
 - 2007-2011: Bachelor, Shanghai Jiao Tong University, China
 
-## Research Interest
+<h2>Research Interest</h2>
 
 - Image/Video Processing (Enhancement, Quality Assessment,  etc.)
 - Video Content Analysis (Segmentation, Tracking, Cross-modal Retrieval, etc.)
 - Recommendation Systems (Cross-domain Recommender, Interactive Recommender)
 
-## Openings
+<h2>Openings</h2>
 - Looking for self-motivated graduate students working with me. For prospective students, please send your resume and transcript to my email.
 -The research group is inviting students to enter the Master program in Autumn 2024. Please contact us by email.
 - 课题组招收2024年秋季入学硕士，欢迎保研/考研同学邮件联系。
 
-## NEWS!
+<h2>NEWS!</h2>
 - 09/2023, I am promoted to advanced membership of CCF.
 - 09/2023, our work SiamDMU is accepted by IEEE TETCI  with code available at GitHub.
 - 09/2023, we have successfully host the 3rd CSIG Excellent Doctoral Forum in Tianjin Univeristy!
