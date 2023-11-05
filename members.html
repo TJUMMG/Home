@@ -16,18 +16,15 @@
       width: 400px;
       height: 200px;
       overflow: auto;
-    }
-    
-    /* 设置图片的样式 */
-    .image-container li {
-      display: inline-block;
-      margin-right: 10px;
+      white-space: nowrap; /* 强制所有图片在一行显示 */
     }
 
+    /* 设置图片的样式 */
     .image-container img {
-      width: 100%;
-      height: auto;
-      display: block;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin-right: 10px;
     }
   </style>
   <script>
@@ -39,6 +36,28 @@
       var selectedContent = document.getElementById(lang);
       selectedContent.style.display = "block";
     }
+    // 在网页加载完成后执行 JavaScript 代码
+    window.onload = function() {
+      var container = document.querySelector(".image-container");
+
+      // 获取容器的宽度
+      var containerWidth = container.offsetWidth;
+
+      // 获取所有图片并计算总宽度
+      var images = container.querySelectorAll("img");
+      var totalWidth = 0;
+      images.forEach(function(image) {
+        totalWidth += image.offsetWidth + 10; // 加上图片间距
+      });
+
+      // 设置容器的宽度为所有图片的总宽度
+      container.style.width = totalWidth + "px";
+
+      // 检查容器宽度是否超出视窗宽度，如果超出则启用滚动
+      if (totalWidth > containerWidth) {
+        container.style.overflowX = "scroll";
+      }
+    };
   </script>
 </head>
 <body onload="changeLanguage('en')">
@@ -104,13 +123,11 @@ Multimedia Group (MMG) is led by Dr. Jing Liu and affiliated with School of Elec
   </ul>
     <h2>Photos</h2>
     <div class="image-container">
-    <ul>
-      <!-- 添加多个图片 -->
-      <li><img src="image1.jpg" alt="Image 1"></li>
-      <li><img src="image3.jpg" alt="Image 3"></li>
-      <li><img src="image4.jpg" alt="Image 4"></li>
-      <!-- 添加更多图片... -->
-    </ul>
+    <!-- 添加多个图片 -->
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 4">
+    <!-- 添加更多图片... -->
     </div>
   </div>
   <div id="zh-CN" class="language-content">
