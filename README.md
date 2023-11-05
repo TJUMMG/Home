@@ -32,7 +32,7 @@
 
 <img src="image.png" alt="图片描述" style="float:left;margin-right:30px;margin-left:0px;max-width:240px; height:auto;" />
 
-Hi, I am now an Associate Professor with Multimedi Institute of Tianjin University. I received the B.E and Ph.D. degree from Shanghai Jiao Tong Univeristy under the supervision of Prof. <a href="https://english.seiee.sjtu.edu.cn/english/detail/842_802.htm">Xiaokang Yang</a> and Prof. <a href="https://scholar.google.ca/citations?user=E6zbSYgAAAAJ">Guangtao Zhai</a>. I am also supervised by Prof. <a href="https://cse.buffalo.edu/UBMM/People/dr.chen.html">Chang Wen Chen</a> when visiting at SUNY@Buffalo from 2014-2015. My research interest includes: image/video processing and cross-modal video content analysis. </br>
+Hi, I am now an Associate Professor with Multimedi Institute of Tianjin University. I received the B.E and Ph.D. degree from Shanghai Jiao Tong Univeristy under the supervision of Prof. <a href="https://english.seiee.sjtu.edu.cn/english/detail/842_802.htm">Xiaokang Yang</a> and Prof. <a href="https://scholar.google.ca/citations?user=E6zbSYgAAAAJ">Guangtao Zhai</a>. I am also supervised by Prof. <a href="https://cse.buffalo.edu/UBMM/People/dr.chen.html">Chang Wen Chen</a> when visiting at SUNY@Buffalo from 2014-2015. My research interest includes: image/video processing and cross-modal video content analysis.
   <ul>
     <li>Email:  jliu_tju@tju.edu.cn</li>
     <li>Address: Tianjin University,26D Building, Rm 413</li>
@@ -111,7 +111,7 @@ Hi, I am now an Associate Professor with Multimedi Institute of Tianjin Universi
 
 <img src="image.png" alt="图片描述" style="float:left;margin-right:30px;margin-left:0px;max-width:240px; height:auto;" />
 
-大家好，我现在是天津大学电气自动化与信息工程学院的副教授。毕业于上海交通大学，师从<a href="https://english.seiee.sjtu.edu.cn/english/detail/842_802.htm">杨小康</a>教授和<a href="https://scholar.google.ca/citations?user=E6zbSYgAAAAJ">翟广涛</a>教授，获得了学士学位和博士学位。2014-2015年访问SUNY@Buffalo期间，我的导师是<a href="https://cse.buffalo.edu/UBMM/People/dr.chen.html">陈长汶</a> 教授。我的研究兴趣包括:图像/视频处理和跨模态视频内容分析。 </br>
+大家好，我现在是天津大学电气自动化与信息工程学院的副教授。毕业于上海交通大学，师从<a href="https://english.seiee.sjtu.edu.cn/english/detail/842_802.htm">杨小康</a>教授和<a href="https://scholar.google.ca/citations?user=E6zbSYgAAAAJ">翟广涛</a>教授，获得了学士学位和博士学位。2014-2015年访问SUNY@Buffalo期间，我的导师是<a href="https://cse.buffalo.edu/UBMM/People/dr.chen.html">陈长汶</a> 教授。我的研究兴趣包括:图像/视频处理和跨模态视频内容分析。
   <ul>
     <li>邮箱:  jliu_tju@tju.edu.cn</li>
     <li>地址: 天津大学卫津路校区26教D区413</li>
