@@ -39,20 +39,6 @@
       var selectedContent = document.getElementById(lang);
       selectedContent.style.display = "block";
     }
-     // 在网页加载完成后执行 JavaScript 代码
-    window.onload = function() {
-      var container = document.querySelector(".image-container");
-
-      // 使用 JavaScript 获取所有图片并计算总宽度
-      var images = container.querySelectorAll("img");
-      var totalWidth = 0;
-      images.forEach(function(image) {
-        totalWidth += image.offsetWidth;
-      });
-
-      // 设置容器的宽度为所有图片的总宽度
-      container.style.width = totalWidth + "px";
-    };
   </script>
 </head>
 <body onload="changeLanguage('en')">
