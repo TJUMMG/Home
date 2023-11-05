@@ -12,8 +12,21 @@
       margin-right: 100px;
     }
   </style>
+  <script>
+    function changeLanguage(lang) {
+      var elements = document.getElementsByClassName("language-content");
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = "none";
+      }
+      var selectedContent = document.getElementById(lang);
+      selectedContent.style.display = "block";
+    }
+  </script>
 </head>
-<body>
+<body onload="changeLanguage('en')">
+  <button onclick="changeLanguage('en')">English</button>
+  <button onclick="changeLanguage('zh-CN')">中文</button>
+  <div id="en" class="language-content" style="display: none;">
   <h1>Prospective Graduate Students</h1>
   I am looking for graduate students in EE. For prospective graduate students interested in joining us, please make sure you are qualified for the admission process of the <a href="http://seea.tju.edu.cn/">School of Electrical and Information Engineering</a> at Tianjin University.
   </br> </br>
@@ -23,5 +36,18 @@
     <li><a href="https://tjummg.github.io/Home/members">Multimedia Group</a></li>
     <li><a href="http://seea.tju.edu.cn/">School of Electrical and Information Engineering at TJU</a></li>
   </ul>
+  </div>
+
+  <div id="zh-CN" class="language-content">
+  <h1>准研究生</h1>
+  我正在寻找研究生。对于有兴趣加入我们的未来研究生，请确保您有资格进入<a href="http://seea.tju.edu.cn/">天津大学电气自动化和信息工程学院</a>的招生过程。
+  </br> </br>
+  更多信息： </br>
+  <ul>
+    <li><a href="https://tjummg.github.io/Home/publications">我的研究工作</a></li>
+    <li><a href="https://tjummg.github.io/Home/members">多媒体组</a></li>
+    <li><a href="http://seea.tju.edu.cn/">天津大学电气自动化和信息工程学院</a></li>
+  </ul>
+  </div>
 </body>
 </html>
