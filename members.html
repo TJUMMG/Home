@@ -11,15 +11,18 @@
       margin-left: 100px;
       margin-right: 100px;
     }
-    /* 设置容器的宽度和高度 */
+      /* 设置容器的宽度和高度 */
     .image-container {
       width: 400px;
       height: 200px;
       overflow: auto;
+      white-space: nowrap; /* 强制所有图片在一行显示 */
     }
-    
-    /* 设置单个图像容器的样式 */
-    .image-container .image-item {
+
+    /* 设置图片的样式 */
+    .image-container img {
+      max-width: 100%;
+      max-height: 100%;
       display: inline-block;
       margin-right: 10px;
     }
@@ -36,17 +39,31 @@
     // 在网页加载完成后执行 JavaScript 代码
     window.onload = function() {
       var container = document.querySelector(".image-container");
-      var imageItems = document.querySelectorAll(".image-item");
+      
+      // 获取容器的宽度
+      var containerWidth = container.offsetWidth;
 
-      var totalWidth = 0;
-      // 遍历每个图像容器并计算总宽度
-      imageItems.forEach(function(item) {
-        totalWidth += item.offsetWidth + 10; // 加上容器间距
+      // 设置每个图像的尺寸
+      var images = container.querySelectorAll("img");
+      images.forEach(function(image) {
+        setScaledSize(image, containerWidth);
       });
 
-      // 设置容器的宽度为所有图像容器的总宽度
-      container.style.width = totalWidth + "px";
+      // 检查容器宽度是否超出视窗宽度，如果超出则启用滚动
+      if (container.scrollWidth > containerWidth) {
+        container.style.overflowX = "scroll";
+      }
     };
+
+    // 设置图像的等比例缩放尺寸
+    function setScaledSize(image, containerWidth) {
+      var imageAspectRatio = image.width / image.height;
+      var containerHeight = containerWidth / imageAspectRatio;
+
+      // 根据容器宽度计算图像高度
+      image.style.width = containerWidth + "px";
+      image.style.height = containerHeight + "px";
+    }
   </script>
 </head>
 <body onload="changeLanguage('en')">
@@ -112,11 +129,11 @@ Multimedia Group (MMG) is led by Dr. Jing Liu and affiliated with School of Elec
   </ul>
     <h2>Photos</h2>
     <div class="image-container">
-    <!-- 添加多个图像容器 -->
-    <div class="image-item"><img src="image1.jpg" alt="Image 1"></div>
-    <div class="image-item"><img src="image3.jpg" alt="Image 3"></div>
-    <div class="image-item"><img src="image4.jpg" alt="Image 4"></div>
-    <!-- 添加更多图像容器... -->
+    <!-- 添加多个图片 -->
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 4">
+    <!-- 添加更多图片... -->
     </div>
   </div>
   <div id="zh-CN" class="language-content">
