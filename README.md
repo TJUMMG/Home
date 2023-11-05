@@ -10,8 +10,14 @@
   padding: 10px;
   background-color: #f2f2f2;
 }
+ .language-content {
+  margin-bottom: 15px;
+} 
 </style>
+<button onclick="toggleLanguage()">切换语言</button>
 
+<!-- 中英文内容 -->
+<div id="content" class="language-content">
 <!-- 分栏界面开始 -->
 <div class="columns">
   <a href="publications.html" class="column" target="_blank">Publications</a>
@@ -80,18 +86,19 @@ Hi, I am now an Associate Professor with Multimedi Institute of Tianjin Universi
 - 09/2019, our work SSCNN is published in IEEE TMM.
 - 11/2018, I receive an honer for CSIG candidate excellent doctoral dissertation.
 - 10/2018, our work IPAD is published in IEEE TIP with code available at GitHub.
-
-<!-- 切换按钮 -->
-<button onclick="changeLanguage('en')">English Version</button>
-<button onclick="changeLanguage('zh-CN')">中文版</button>
+</div>
 
 <script>
-function changeLanguage(lang) {
-  var elements = document.getElementsByClassName("language-content");
-  for (var i = 0; i < elements.length; i++) {
-    elements[i].style.display = "none";
+function toggleLanguage() {
+  var content = document.getElementById("content");
+  var zhContent = document.getElementById("zh-CN");
+  
+  if (content.style.display !== "none") {
+    content.style.display = "none";
+    zhContent.style.display = "block";
+  } else {
+    content.style.display = "block";
+    zhContent.style.display = "none";
   }
-  var selectedContent = document.getElementById(lang);
-  selectedContent.style.display = "block";
 }
 </script>
